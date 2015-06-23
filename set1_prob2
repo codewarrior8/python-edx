@@ -1,0 +1,9 @@
+#program to count number of 'bob' substring
+l=len(s)
+count=0
+for i in range(0,l-2):
+    if(s[i]=='b'):
+        if(s[i+1]=='o'):
+            if(s[i+2]=='b'):
+                count+=1
+print count
